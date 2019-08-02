@@ -35,4 +35,22 @@ html {
 
 .page__content {
 	line-height: 1.65;
+  text-align:  justify;
+}
+
+.page {
+  @include breakpoint($large) {
+    padding-right:  15%;
+  }
+  @include breakpoint($x-large) {
+    padding-right:  15%;
+  }
+
+  .page__inner-wrap {
+    margin-top: 3em;
+  }
+}
+
+.page__title {
+  text-align:  center;
 }
