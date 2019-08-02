@@ -7,7 +7,6 @@
 /* override css variables */
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
-
 $sans-serif: "Spoqa Han Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 
@@ -32,4 +31,8 @@ html {
   @include breakpoint($x-large) {
     font-size: 18px;
   }
+}
+
+.page__content {
+	line-height: 1.65;
 }
