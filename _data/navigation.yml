@@ -6,3 +6,14 @@ main:
     url: /categories/
 #  - title: "Tags"
 #    url: /tags/
+
+docs:
+  - title: "Competitive Programming"
+    children:
+      - title: "Contest"
+        url: /category/contest/
+
+  - title: "Blog"
+    children:
+      - title: "Jekyll"
+        url: /category/jekyll/

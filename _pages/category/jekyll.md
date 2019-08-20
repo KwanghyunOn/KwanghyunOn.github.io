@@ -1,7 +1,7 @@
 ---
 layout: categories
-permalink: /categories/
-title: "Posts by Category"
+permalink: /category/jekyll/
+title: "Jekyll"
 author_profile: true
 sidebar:
   nav: "docs"

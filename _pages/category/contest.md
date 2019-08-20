@@ -1,7 +1,7 @@
 ---
 layout: categories
-permalink: /categories/
-title: "Posts by Category"
+permalink: /category/contest/
+title: "Contest"
 author_profile: true
 sidebar:
   nav: "docs"

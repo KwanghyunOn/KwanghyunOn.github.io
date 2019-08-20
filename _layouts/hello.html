@@ -1,0 +1,10 @@
+---
+layout: archive
+---
+
+{% assign category = page.category | default: page.title %}
+{% for post in paginator.posts %}
+  {% if post.categories includes category %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
