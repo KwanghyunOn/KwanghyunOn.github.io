@@ -10,10 +10,8 @@ main:
 docs:
   - title: "Competitive Programming"
     children:
+      - title: "Algorithms & Data Structures"
+        url: /category/algo/
       - title: "Contest"
         url: /category/contest/
-
-  - title: "Blog"
-    children:
-      - title: "Jekyll"
-        url: /category/jekyll/
+      

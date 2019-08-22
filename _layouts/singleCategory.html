@@ -3,8 +3,8 @@ layout: archive
 ---
 
 {% assign category = page.category | default: page.title %}
-{% for post in paginator.posts %}
-  {% if post.categories includes category %}
+{% for post in site.posts %}
+  {% if post.categories contains category %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}

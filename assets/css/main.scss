@@ -16,6 +16,9 @@ $sans-serif: "Spoqa Han Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Seg
 @import "minimal-mistakes";
 
 
+
+$type-size-6: 10em !default; // ~12px
+
 /* override other variables */
 html {
   font-size: 16px;
@@ -59,4 +62,10 @@ html {
 
 .archive {
   margin-top: 3em;
+}
+
+.sidebar {
+  li {
+    line-height: 2;
+  }
 }
